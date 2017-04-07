@@ -1,0 +1,67 @@
+/*
+  Linh Ly
+  4 / 1 / 2017
+  w1 - creative project: index.css
+  This is written to help layout the pictures on the base webpage
+  in polaroid form. Along with that, it also help style the entire
+  index page.
+*/
+h1 {
+  font-size: 70px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  background-image: url("./img/background.jpg");
+  background-size: 500%;
+  background-repeat: no-repeat;
+  font-size: 20pt;
+  text-align: center;
+  color: black;
+}
+
+p {
+  position: static;
+  padding: 40px;
+  padding-top: 5%;
+  font-style: italic;
+}
+
+ul.picture {
+  list-style: none;
+  margin-left: -2.5%;
+}
+
+ul.picture li {
+  display:inline-grid;
+  margin: 0 0 5% 1.5%;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+ul.picture li img{
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 10px;
+  margin-bottom: 80px;
+}
+
+ul.picture li img:hover {
+    box-shadow: 0 0 4px 4px rgba(0, 140, 186, 0.5);
+}
+
+ul.picture.columns-4 li {
+  width: 22.5%;
+}
+
+#stitch {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
